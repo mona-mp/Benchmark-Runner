@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define a log file to keep track of container start and end times
-LOGFILE="/root/log/container_log.txt"
+LOGFILE="/log/container_log.txt"
 
 # Initialize a counter
 COUNTER=0
