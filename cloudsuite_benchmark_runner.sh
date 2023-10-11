@@ -6,6 +6,9 @@ LOGFILE="/root/log/container_log.txt"
 # Initialize a counter
 COUNTER=0
 
+# Prompt the user for the target IP address
+read -p "Enter the target IP address: " TARGET_IP
+
 # Infinite loop to keep creating new containers after one exits
 while true; do
     # Increment the counter by 1
